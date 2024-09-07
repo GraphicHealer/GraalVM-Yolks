@@ -5,8 +5,8 @@ Created because of this document: https://github.com/brucethemoose/Minecraft-Per
 
 # Available Images
 
-* [`java`](/tree/master/java)
-  * [`java17`](/tree/master/java/17)
+* [`java`](/tree/main/java)
+  * [`java17`](/tree/main/java/17)
     * `ghcr.io/graphichealer/graalvm-yolks:java_17`
 
 # Installation
