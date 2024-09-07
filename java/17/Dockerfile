@@ -7,9 +7,8 @@ FROM container-registry.oracle.com/graalvm/jdk-ee:latest
 
 MAINTAINER GraphicHealer, https://github.com/GraphicHealer/Pterodactyl-GraalVM-Yolk/issues
 
-RUN yum install -y curl ca-certificates openssl git tar bash sqlite fontconfig \
-    && yum clean all \
-    && rm -rf /var/cache/yum \
+RUN dnf -C -y -b install curl ca-certificates openssl git tar bash sqlite fontconfig \
+    && dnf clean all \
     && useradd -D --home-dir /home/container -m container
 
 USER container
