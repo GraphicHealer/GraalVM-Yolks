@@ -3,7 +3,7 @@
 # Environment: Java
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM container-registry.oracle.com/graalvm/jdk-ee:latest
+FROM container-registry.oracle.com/graalvm/jdk-ee:ol9-java17
 
 MAINTAINER GraphicHealer, https://github.com/GraphicHealer/Pterodactyl-GraalVM-Yolk/issues
 
