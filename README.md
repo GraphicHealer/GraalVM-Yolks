@@ -5,9 +5,9 @@ Created because of this document: https://github.com/brucethemoose/Minecraft-Per
 
 # Available Images
 
-* [`java`](https://github.com/GraphicHealer/Pterodactyl-GraalVM-Yolks/tree/master/java)
-  * [`java17`](https://github.com/GraphicHealer/Pterodactyl-GraalVM-Yolks/tree/master/java/17)
-    * `ghcr.io/GraphicHealer/Pterodactyl-GraalVM-Yolks:java_17`
+* [`java`](/tree/master/java)
+  * [`java17`](/tree/master/java/17)
+    * `ghcr.io/graphichealer/graalvm-yolks:java_17`
 
 # Installation
 1. Select a Docker Image URL from above.
