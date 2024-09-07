@@ -9,7 +9,7 @@ MAINTAINER GraphicHealer, https://github.com/GraphicHealer/Pterodactyl-GraalVM-Y
 
 RUN microdnf -y --best install curl ca-certificates openssl git tar bash sqlite fontconfig \
     && microdnf clean all \
-    && useradd -D --home-dir /home/container -m container
+    && useradd -d /home/container -m container
 
 USER container
 ENV  USER=container HOME=/home/container
