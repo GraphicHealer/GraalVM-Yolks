@@ -26,7 +26,7 @@ jobs:
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
+          username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v4
         with:
@@ -35,4 +35,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/GraphicHealer/graalvm-yolks:java_${{ matrix.tag }}
+            ghcr.io/graphichealer/graalvm-yolks:java_${{ matrix.tag }}
