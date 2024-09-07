@@ -7,8 +7,8 @@ FROM container-registry.oracle.com/graalvm/jdk-ee:latest
 
 MAINTAINER GraphicHealer, https://github.com/GraphicHealer/Pterodactyl-GraalVM-Yolk/issues
 
-RUN dnf -C -y -b install curl ca-certificates openssl git tar bash sqlite fontconfig \
-    && dnf clean all \
+RUN microdnf -y --best install curl ca-certificates openssl git tar bash sqlite fontconfig \
+    && microdnf clean all \
     && useradd -D --home-dir /home/container -m container
 
 USER container
