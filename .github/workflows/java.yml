@@ -17,6 +17,7 @@ jobs:
       matrix:
         tag:
           - 17-ee
+          - 17
           - 21
     steps:
       - uses: actions/checkout@v4
