@@ -8,7 +8,8 @@ Created because of this document: https://github.com/brucethemoose/Minecraft-Per
 * [`java`](https://github.com/GraphicHealer/GraalVM-Yolks/tree/master/java)
   * [`java17`](https://github.com/GraphicHealer/GraalVM-Yolks/tree/master/java/17)
     * `ghcr.io/graphichealer/graalvm-yolks:java_17`
-
+  * [`java21`](https://github.com/GraphicHealer/GraalVM-Yolks/tree/master/java/21)
+    * `ghcr.io/graphichealer/graalvm-yolks:java_21`
 # Installation
 1. Select a Docker Image URL from above.
 2. On Pterodactyl Panel, go to `Admin > Servers > [YOUR SERVER] > Startup > Docker Image Configuration`
